@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-icon {
+    background-color: blueviolet;
+}
+
+.container div {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .container div {
+        font-size: 0.9rem;
+    }
+}
