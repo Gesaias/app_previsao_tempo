@@ -10,7 +10,7 @@ export default function SearchMain(props) {
     return (
         <div className='container'>
             <h1>{props.name} - {props.sys.country}</h1>
-            <img src={props.icon} />
+            <img src={props.icon} alt='temp-img' />
             <p><strong>{capitalizeFirstLetter(props.weather[0].description)}</strong></p>
             <h2 id="temp">Temperatura</h2>
             <div id='temp-celcius'>
